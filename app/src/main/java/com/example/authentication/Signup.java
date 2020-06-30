@@ -122,7 +122,7 @@ public class Signup extends AppCompatActivity {
                                     Log.d(TAG,"user Profile is created "+ UserID);
                                 }
                             });
-                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                            startActivity(new Intent(getApplicationContext(), Drawer.class));
                         }else{
                             Toast.makeText(Signup.this, "Error occured ! "+ task.getException().getMessage(), Toast.LENGTH_LONG).show();
                         }

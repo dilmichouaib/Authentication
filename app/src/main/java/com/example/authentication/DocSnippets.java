@@ -1,4 +1,4 @@
-package com.google.example.firestore;
+package com.example.authentication;
 
 import android.util.Log;
 
